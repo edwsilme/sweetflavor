@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>sweet flavors</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="css\style.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="css\sesion.css" media="screen" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <ul>
+                <li><center><img id="img" class="img-rounded" src ="img/icono.jpg"></center></li>
+                <li><a class="active" href="#">Inicio</a></li>
+                <li><a href="#">Variedades</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+            </ul>
+        </div>
+        <div class="div" class="container-fluid">
+            <div class="title" class="container-fluid">
+                <p><h1>Sweet Flavors</h1></p>
+            </div>
+        </div>
+        <div id="div" class="container">
+            <div class="login">
+                <div class="login-triangle"></div>
+                <h2 class="login-header">Log in</h2>
+                <form method="POST" class="login-container" action="login.php">
+                    <input type="text" name="nnombre" placeholder="Usuario" />
+                    <br />
+                    <input type="password" name="npassword" placeholder="Contraseña" />
+                    <br />
+                    <button type="submit" value="Log in">Inicar Sesion</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
