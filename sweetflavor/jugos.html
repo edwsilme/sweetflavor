@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
+    <!--
+         * Nombre del Autor: Edward Eliecer Silva Mejia
+         * Fecha: 16/11/2020
+         * Doy fe que este ejercicio es de mi autoria, en caso de encontrar plagio la nota de todo mi 
+         * trabajo debe ser de CERO ademas de las respectivas sansiones a que haya lugar
+    -->
     <title>sweet flavors</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,103 +16,109 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="css\style.css" media="screen" rel="stylesheet" type="text/css" />
     <script>
-      function pulsar(){
-          alert("Su pedido se ha enviado con éxito");
-          location.href="inicio.html";
-      }
-      </script>
-  </head>
-  <body>
+        function pulsar() {
+            alert("Su pedido se ha enviado con éxito");
+            location.href = "inicio.html";
+        }
+    </script>
+</head>
+
+<body>
     <div class="container-fluid">
-      <ul>
-        <li><center><img id="img" class="img-rounded" src ="img/icono.jpg"></center></li>
-        <li><a class="active" href="inicio.html">Inicio</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="index.html">Finalizar Sesión</a></li>
-      </ul>
+        <ul>
+            <li>
+                <center><img id="img" class="img-rounded" src="img/icono.jpg"></center>
+            </li>
+            <li><a class="active" href="inicio.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="index.html">Finalizar Sesión</a></li>
+        </ul>
     </div>
     <div class="div" class="container-fluid">
-      <div class="title" class="container-fluid">
-        <p><h1>Sweet Flavors</h1></p>
-      </div>
+        <div class="title" class="container-fluid">
+            <p>
+                <h1>Sweet Flavors</h1>
+            </p>
+        </div>
     </div>
     <div id="div" class="container">
-      <div class="col-sm-2">
-        <img id="img2" class="img-rounded" src ="img/jugo/fresa.jpg" style="width:50%">
-      </div>
-      <div class="col-sm-2">
-        Jugo de fresa/leche: $2500
-      </div>
-      <div class="col-sm-2">
-        <input type="checkbox" name="gender[]" value="fresa">
-      </div>
-      <div class="col-sm-2">
-        <img id="img2" class="img-rounded" src ="img/jugo/guanabana.jpg" style="width:50%">
-      </div>
-      <div class="col-sm-2">
-        Jugo de guanabana/leche: $2500
-      </div>
-      <div class="col-sm-2">
-        <input type="checkbox" name="gender[]" value="guanabana">
-      </div>
+        <div class="col-sm-2">
+            <img id="img2" class="img-rounded" src="img/jugo/fresa.jpg" style="width:50%">
+        </div>
+        <div class="col-sm-2">
+            Jugo de fresa/leche: $2500
+        </div>
+        <div class="col-sm-2">
+            <input type="checkbox" name="gender[]" value="fresa">
+        </div>
+        <div class="col-sm-2">
+            <img id="img2" class="img-rounded" src="img/jugo/guanabana.jpg" style="width:50%">
+        </div>
+        <div class="col-sm-2">
+            Jugo de guanabana/leche: $2500
+        </div>
+        <div class="col-sm-2">
+            <input type="checkbox" name="gender[]" value="guanabana">
+        </div>
     </div>
     <div id="div" class="container">
-      <div class="col-sm-2">
-        <img id="img2" class="img-rounded" src ="img/jugo/mango.jpg" style="width:50%">
-      </div>
-      <div class="col-sm-2">
-        Jugo de mango/agua: $2000
-      </div>
-      <div class="col-sm-2">
-        <input type="checkbox" name="gender[]" value="mango">
-      </div>
-      <div class="col-sm-2">
-        <img id="img2" class="img-rounded" src ="img/jugo/mora.jpg" style="width:50%">
-      </div>
-      <div class="col-sm-2">
-        Jugo mora/agua: $2000
-      </div>
-      <div class="col-sm-2">
-        <input type="checkbox" name="gender[]" value="mora">
-      </div>
+        <div class="col-sm-2">
+            <img id="img2" class="img-rounded" src="img/jugo/mango.jpg" style="width:50%">
+        </div>
+        <div class="col-sm-2">
+            Jugo de mango/agua: $2000
+        </div>
+        <div class="col-sm-2">
+            <input type="checkbox" name="gender[]" value="mango">
+        </div>
+        <div class="col-sm-2">
+            <img id="img2" class="img-rounded" src="img/jugo/mora.jpg" style="width:50%">
+        </div>
+        <div class="col-sm-2">
+            Jugo mora/agua: $2000
+        </div>
+        <div class="col-sm-2">
+            <input type="checkbox" name="gender[]" value="mora">
+        </div>
     </div>
     <div id="div" class="container">
-      <div class="col-sm-2">
-        <img id="img2" class="img-rounded" src ="img/jugo/naranja.jpg" style="width:50%">
-      </div>
-      <div class="col-sm-2">
-        Jugo de naranja: $1500
-      </div>
-      <div class="col-sm-2">
-        <input type="checkbox" name="gender[]" value="naranja">
-      </div>
-      <div class="col-sm-2">
-        <img id="img2" class="img-rounded" src ="img/jugo/toronja.jpg" style="width:50%">
-      </div>
-      <div class="col-sm-2">
-        Jugo toronja: $1500
-      </div>
-      <div class="col-sm-2">
-        <input type="checkbox" name="gender[]" value="toronja">
-      </div>
+        <div class="col-sm-2">
+            <img id="img2" class="img-rounded" src="img/jugo/naranja.jpg" style="width:50%">
+        </div>
+        <div class="col-sm-2">
+            Jugo de naranja: $1500
+        </div>
+        <div class="col-sm-2">
+            <input type="checkbox" name="gender[]" value="naranja">
+        </div>
+        <div class="col-sm-2">
+            <img id="img2" class="img-rounded" src="img/jugo/toronja.jpg" style="width:50%">
+        </div>
+        <div class="col-sm-2">
+            Jugo toronja: $1500
+        </div>
+        <div class="col-sm-2">
+            <input type="checkbox" name="gender[]" value="toronja">
+        </div>
     </div>
     <div id="div" class="container-fluid">
-      <div class="container">
-        <label>Nombre</label>
-        <input id="name" name="name" type="text" autofocus required />
-      </div>
-      <div class="container">
-        <label>Telefono</label>
-        <input id="tel" name="tel" type="tel" />
-      </div>
-      <div class="container">
-        <label>Dirección</label>
-        <input id="address" name="address" type="text" autofocus required />
-      </div>
-      <div class="container">
-        <INPUT type="button" value="Enviar" onclick="pulsar()">
+        <div class="container">
+            <label>Nombre</label>
+            <input id="name" name="name" type="text" autofocus required />
+        </div>
+        <div class="container">
+            <label>Telefono</label>
+            <input id="tel" name="tel" type="tel" />
+        </div>
+        <div class="container">
+            <label>Dirección</label>
+            <input id="address" name="address" type="text" autofocus required />
+        </div>
+        <div class="container">
+            <INPUT type="button" value="Enviar" onclick="pulsar()">
+        </div>
     </div>
-    </div>
-    <br><br> 
-  </body>
+    <br><br>
+</body>
+
 </html>
